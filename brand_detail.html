@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>PS-Taxi - бронирование автомобиля</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Project CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- START HEADER -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-auto pt-3">
+            <a href="index.html" class="btn btn-dark">PS-Taxi</a>
+        </div>
+        <div class="main-menu-content col-auto">
+            <ul>
+                <li><a href="index.html" class="text-decoration-none">Домой</a></li>
+                <li><a href="brand_list.html" class="text-decoration-none">Бренды</a></li>
+                <li><a href="auto_list.html" class="text-decoration-none">Автомобили</a></li>
+            </ul>
+        </div>
+        <div class="col-auto pt-3">
+            <a href="#" class="btn btn-outline-primary mr-1">Регистрация</a>
+            <a href="#" class="btn btn-primary">Войти</a>
+        </div>
+    </div>
+</div>
+<!-- END HEADER -->
+
+<!-- START WRAPPER -->
+<div class="hero-box bread-bg-8" style="z-index: 1;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="text-white">Mercedes E Class</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END WRAPPER -->
+
+<!-- START CAR DETAIL AREA -->
+<div class="padding-bottom-90px">
+    <div class="section-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-content-nav">
+                        <ul>
+                            <li><a href="#description" class="text-decoration-none active">Описание</a></li>
+                            <li><a href="#cars" class="text-decoration-none">Автомобили</a></li>
+                            <li><a href="#reviews" class="text-decoration-none">Отзывы</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 id="description" class="py-4 mt-4">Mercedes E Class or Similar</h3>
+                <img src="images/brand-car.png" alt="brand" class="avatar-xxl img-fluid">
+                <p class="py-4">Количество автомобилей: 4</p>
+                <hr>
+                <div id="cars" class="py-4 mt-4">
+                    <h3 class="mb-3">Автомобили бренда</h3>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Класс авто</th>
+                                <th scope="col">Гос. номер</th>
+                                <th scope="col">Год выпуска</th>
+                                <th scope="col">Объем двигателя</th>
+                                <th scope="col">Мощность двигателя</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Бизнес</td>
+                                <td>е001кх99rus</td>
+                                <td>1990</td>
+                                <td>6000</td>
+                                <td>280</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Премиум</td>
+                                <td>е002кх99rus</td>
+                                <td>1990</td>
+                                <td>6000</td>
+                                <td>280</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Элит</td>
+                                <td>е003кх99rus</td>
+                                <td>1990</td>
+                                <td>6000</td>
+                                <td>280</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr>
+                <div id="reviews" class="py-4 mt-4">
+                    <h3 class="mb-3">Оценка бренда</h3>
+                    <div class="col-lg-4">
+                        <div class="review-summary">
+                            <h2>4.5<span>/5</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-4 mt-4">
+                    <h3>Отзывы о бренде</h3>
+                    <h4 class="mt-3">Jenny Doe</h4>
+                    <p class="text-muted">April 5, 2019</p>
+                    <p>Ездил по москве. Все гуд:)</p>
+                </div>
+                <a href="" class="btn btn-lg btn-primary mt-4">Редактировать</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CAR DETAIL -->
+
+<!-- START CTA -->
+<div class="section-bg-2 padding-top-60px padding-bottom-60px">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <p class="text-white-50 pb-1">Не пропусти самое интересное</p>
+                <h2 class="text-white">Горячие предложения в твоем почтовом ящике</h2>
+            </div>
+            <div class="col-lg-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label text-white">Email:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Подписаться</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CTA -->
+
+<!-- START FOOTER -->
+<div class="container">
+    <div class="py-4 mt-4">
+        <p>&copy; Copyright Pumpskill</p>
+    </div>
+</div>
+<!-- END FOOTER -->
+
+</body>
+
+</html>
