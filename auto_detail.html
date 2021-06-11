@@ -112,29 +112,12 @@
                             Написать отзыв
                         </div>
                         <div class="card-body">
-                            <form>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="form-floating mb-3">
-                                            <input type="text" class="form-control" id="floatingInputName"
-                                                   placeholder="Имя">
-                                            <label for="floatingInputName">Имя</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="floatingInputEmail"
-                                                   placeholder="Ваш email">
-                                            <label for="floatingInputEmail">Email</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Комментарий</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1"
-                                              rows="3"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Отправить отзыв</button>
+                            <form action="" method="post">
+                                <label for="id_rate">Оценка:</label>
+                                <input type="number" name="rate" class="form-control" required="" id="id_rate">
+                                <label for="id_text">Текст отзыва:</label>
+                                <textarea name="text" cols="40" rows="3" maxlength="500" class="form-control" required="" id="id_text"></textarea>
+                                <button type="submit" class="btn btn-primary mt-3">Отправить отзыв</button>
                             </form>
                         </div>
                     </div>
